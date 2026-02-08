@@ -1,0 +1,61 @@
+# --- Maven / build ---
+/target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- IDEs / editors ---
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# --- Sistema operacional ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Environment / secrets ---
+# Arquivos de variáveis de ambiente locais
+.env
+
+
+# Keystores / credentials
+*.jks
+*.keystore
+*.p12
+secrets/
+
+# --- Logs / runtime outputs ---
+*.log
+logs/
+
+# --- Outros / opcionais ---
+# Diretório de saída do IntelliJ (opcional)
+out/
+
+
