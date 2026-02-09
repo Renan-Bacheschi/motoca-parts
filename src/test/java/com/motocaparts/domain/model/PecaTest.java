@@ -26,8 +26,6 @@ class PecaTest {
         Peca peca = new Peca(UUID.randomUUID(), "PNEU-01", "Pneu Michelin", new BigDecimal("450.00"), 5);
 
         // Verifica exceção
-        assertThrows(IllegalArgumentException.class, () -> {
-            peca.debitarEstoque(7);
-        });
+        assertThrows(IllegalArgumentException.class, () -> peca.debitarEstoque(7));
     }
 }
